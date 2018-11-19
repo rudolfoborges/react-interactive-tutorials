@@ -500,7 +500,7 @@ ${selector} {
           onClick={this.exit.bind(this)}
           disabled={this.state.complete}
         >
-          Exit Tutorial
+          Sair do Tutorial
         </a>
       );
       if (this.state.blockingInput) {
@@ -515,7 +515,7 @@ ${selector} {
             }}
             disabled={!this.state.popupActive || this.state.complete}
           >
-            Hide Help
+            Esconder Tutorial
           </a>
         );
       }
@@ -531,7 +531,7 @@ ${selector} {
             }}
             disabled={this.state.complete}
           >
-            Show Help
+            Abrir Tutorial
           </a>
         );
       }
@@ -571,7 +571,7 @@ ${selector} {
               {this.state.step.annotateSkip}
             </a>
           </p>
-          <p>(Go to next step)</p>
+          <p>(Vá para o próxima passo...)</p>
         </div>
       );
     }
@@ -619,8 +619,8 @@ ${selector} {
             height: blackoutSize + '%',
           }}
         >
-          <div className="too-low">↑ Scroll up to see the next section of the tutorial ↑</div>
-          <div className="too-high">↓ Scroll down to see the next section of the tutorial ↓</div>
+          <div className="too-low">↑ Suba para visualizar o próximo passo do tutorial ↑</div>
+          <div className="too-high">↓ Desça para visualizar o próximo passo do tutorial ↓</div>
         </div>
         <div
           className="announcements"
